@@ -1,0 +1,9 @@
+{
+	"author": "Chris Sainty <csainty@hotmail.com>",
+	"name": "node-webkit-twitter",
+	"description": "A simple twitter client written with node-webkit",
+	"version": "0.0.1",
+	"dependencies": {
+		"request": "2.9.3"
+	}
+}

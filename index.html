@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title>node-webkit-twitter</title>
+	<script src="jquery-1.7.1.min.js"></script>
+	<script src="knockout-2.1.0pre.js"></script>
+	<script src="index.js"></script>
+</head>
+<body>
+
+<h1>node-webkit-twitter</h1>
+
+<div>
+	Enter a search term <input type="text" data-bind="value: searchTerm" />.<br/>
+	<button data-bind="click: search">Search</button>
+</div>
+
+<ul data-bind="foreach: results">
+	<li><span data-bind="text: text"></span></li>
+</ul>
+
+</body>
+</html>
